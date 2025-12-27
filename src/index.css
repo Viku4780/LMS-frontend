@@ -18,6 +18,10 @@
 
     --text-base: 15px;
     --text-base--line-height: 21px;
+
+    --grid-template-columns-auto: repeat(auto-fit, minmax(200px, 1fr));
+
+    --spacing-section-height: 500px;
 }
 
 * {
