@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div className='text-default min-h-screen bg-white'>
       {/* {isEducatorRoute && <Navbar />} */}
-      <Navbar />
+      {/* <Navbar /> */}
     
       <Routes>
         <Route path='/' element={<Home />} />
@@ -31,7 +31,7 @@ const App = () => {
         <Route path='/loading/:path' element={<Loading />} />
 
         <Route path='/educator' element={<Educator />}>
-          <Route path='educator' element={<Dashboard />} />
+          <Route path='/educator' element={<Dashboard />} />
           <Route path='add-course' element={<AddCourse />} />
           <Route path='my-courses' element={<MyCourses />} />
           <Route path='student-enrolled' element={<StudentEnrolled />} />
